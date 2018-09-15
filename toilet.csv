@@ -1,0 +1,18 @@
+id,address,locality,state,pin,latitude,longitude,owner,free,rating
+1,Near Ashoka Taxi Service,Janpath Road,New Delhi,110001,28.6214,77.21926,NDMC,Y,5
+2,Behind Hyderabad House,Jashwant Singh Lane,New Delhi,110001,28.61806,77.22679,NDMC,Y,3
+3,Near CPWD Garage,Rajender Prasad Lane,New Delhi,110001,28.61742,77.22116,NDMC,N,3
+4,105 Dhobi Ghat,Darbangha Lane,New Delhi,110001,28.60549,77.22332,NDMC,Y,2
+5,Kota House,Pandara Road,New Delhi,110003,28.60788,77.23094,NDMC,N,3
+6,Block A,Pandara Road,New Delhi,110003,28.60736,77.23109,NDMC,Y,3
+7,"Indira Camp, D-II Flats ",Pandara Road,New Delhi,110003,28.60613,77.22708,NDMC,Y,3
+8,Motor Market,Prithiviraj Market,New Delhi,110003,28.60095,77.22575,NDMC,Y,3
+9,Back side of Khan Market,Khan Market,New Delhi,110003,28.60056,77.22718,NDMC,Y,5
+10,Near Sunheri Masjid,Moti Lal Nehru marg,New Delhi,110011,28.61037,77.21256,NDMC,Y,3
+11,Near Claridges Hotel,Tees January Marg,New Delhi,110011,28.5999,77.21601,NDMC,Y,4
+12,"Near Shop No. 40, Khanna Market",Lodhi Colony,New Delhi,110007,28.58227,77.22065,NDMC,N,5
+13,Near Fire Station,Jorbagh,New Delhi,110001,28.58502,77.21417,NDMC,Y,3
+14,AIIMS,Ansari Nagar East,New Delhi,110001,28.56661,77.20793,NDMC,N,5
+15,Opposite Safdarjung Airport,Aurobindo Marg,New Delhi,110001,28.58426,77.21268,NDMC,N,4
+16,Vinay Marg Side,Nehru Park,New Delhi,110005,28.59479,77.19596,NDMC,N,4
+17,J Block Bus Stop,Saket,New Delhi,110017,28.5257508,77.2121197,NDMC,Y,2

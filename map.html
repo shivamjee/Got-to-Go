@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Simple markers</title>
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+
+    <script type="text/javascript" src="mapdata.txt"></script>
+
+  </head>
+
+  <body>
+
+    <div id="map"></div>
+
+    <script>
+
+        function initMap() {
+
+          var mydata = JSON.parse(data);
+
+          var myLatLng = { x : [{lat: mydata[0].lat, lng: mydata[0].lng},
+                                {lat: mydata[1].lat, lng: mydata[1].lng},
+                                {lat: mydata[2].lat, lng: mydata[2].lng},
+                                {lat: mydata[3].lat, lng: mydata[3].lng},
+                                {lat: mydata[4].lat, lng: mydata[4].lng},
+                                {lat: mydata[5].lat, lng: mydata[5].lng}
+                               ]
+                         }
+
+          var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 15,
+            center: myLatLng.x[0]
+          });
+
+          var marker = new google.maps.Marker({
+            position: myLatLng.x[0],
+            map: map,
+            title: 'Current location'
+          });
+
+          var marker = new google.maps.Marker({
+            position: myLatLng.x[1],
+            map: map,
+            title: 'Toilet 1'
+          });
+
+          var marker = new google.maps.Marker({
+            position: myLatLng.x[2],
+            map: map,
+            title: 'Toilet 2'
+          });
+
+          var marker = new google.maps.Marker({
+            position: myLatLng.x[3],
+            map: map,
+            title: 'Toilet 3'
+          });
+
+          var marker = new google.maps.Marker({
+            position: myLatLng.x[4],
+            map: map,
+            title: 'Toilet 4'
+          });
+
+          var marker = new google.maps.Marker({
+            position: myLatLng.x[5],
+            map: map,
+            title: 'Toilet 5'
+          });
+
+        }
+
+
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD9gtiAErBykJbp5uCjTtxzfYTHMmk2Llk&callback=initMap">
+    </script>
+  </body>
+</html>
